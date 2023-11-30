@@ -11,8 +11,8 @@
             <span class="float-right">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
-                </button>
-            </span>
+                </button>     
+            </span>         
         </h3>
             <hr>
         </div>
@@ -37,6 +37,7 @@
                     <select name="gender" id="" class="custom-select select" required>
                         <option>Male</option>
                         <option>Female</option>
+                        <option>Transgender</option>
                     </select>
                 </div>
             </div>

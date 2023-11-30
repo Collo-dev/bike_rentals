@@ -7,7 +7,7 @@ if(isset($_GET['c']) && isset($_GET['s'])){
         $title = $cat_qry->fetch_assoc()['category'];
     }
  $sub_cat_qry = $conn->query("SELECT * FROM sub_categories where md5(id) = '{$_GET['s']}'");
-    if($sub_cat_qry->num_rows > 0){
+    if($sub_cat_qry->num_rows > 0){ 
         $sub_title = $sub_cat_qry->fetch_assoc()['sub_category'];
     }
 }
