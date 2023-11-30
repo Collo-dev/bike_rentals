@@ -1,4 +1,4 @@
-<?php
+
 // Replace these variables with your actual database credentials
 
 $host = DB_SERVER;
